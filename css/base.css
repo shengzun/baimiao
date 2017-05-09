@@ -59,12 +59,13 @@ button:active{
 @media screen{html{margin:0 auto;font-size:10px;}}
 @media screen and (device-width:320px){html{font-size:10px;}}
 @media screen and (device-width:375px){html{font-size:12px;}}
+@media screen and (device-width:414px){html{font-size:13px;}}
 @media screen and (min-width:480px){html{font-size:15px;}}
 @media screen and (min-width:512px){html{font-size:16px;}}
 @media screen and (min-width:540px){html{font-size:16.9px;}}
 @media screen and (min-width:576px){html{font-size:18px;}}
 @media screen and (min-width:640px){html{font-size:20px;}}
-@media screen and (min-width:720px){html{font-size:24px; max-width: 750px; margin: 0 auto}}
+@media screen and (min-width:720px){html{font-size:24px; margin: 0 auto}}
 
 /* ---------------------------------------- css base 基础部分结束---------------------------------------- */
 /* 左浮动 */
@@ -79,7 +80,11 @@ button:active{
 	text-align: center;
 }
 .body-nav{
-    padding-bottom: 2.16rem;
+    padding-bottom:5.16rem;
+    height: 100%;
+
+}
+.main-section{
     height: 100%;
     overflow-y: auto;
 }
@@ -136,14 +141,7 @@ body{
     left: 50%;
     margin-left: -45%;
 }
-.navs{
-    width: 100%;
-    height:2.16rem;
-    background: #FFFFFF;
-    position: fixed;
-    bottom: 0;
-    max-width: 750px;
-}
+
 .form-group{
     height:4.17rem;
 
@@ -230,6 +228,15 @@ body{
     width: 100%;
     position: relative;
 }
+.headStatus .setting {
+    position: absolute;
+    color: #fff;
+    right: 5%;
+    top: 10px;
+}
+.headStatus .setting i{
+    font-size: 1.6rem;
+}
 .headStatus .head_img{
     position: absolute;
     max-width: 6.17rem;
@@ -240,7 +247,7 @@ body{
     -webkit-transform: translate(-50%,-50%);
 }
 .headStatus .head_img img{
-    border: 3px solid #BBBBBB;
+    border: 1px solid #BBBBBB;
     border-radius: 50%;
 }
 .headStatus .pname{
@@ -251,4 +258,33 @@ body{
 }
 .headStatus .pname a{
     color: #fff;
+}
+
+.navs{
+    width: 100%;
+    height:4.09rem;
+    background: #FFFFFF;
+    position: fixed;
+    z-index: 9;
+    border-top: 1px solid #EDEDED;
+    bottom: 0;
+
+    padding-top: 5px;
+}
+.navs dl{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.navs dl.on{
+    color:#BD2121;
+}
+.navs dl dd{
+    font-size: 0.8rem;
+}
+.navs dl img{
+    max-width: 2rem;
+    display: block;
+    margin:0 auto;
 }
