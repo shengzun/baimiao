@@ -1,0 +1,90 @@
+<!doctype html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_0xgpujcv9fk9y66r.css">    <link rel="stylesheet" href="css/login.css">
+</head>
+<body >
+    <div class="head brg   p-relative  center">
+        <a class="p-absolute p-back" href="javascript:;">
+            <i class="iconfont icon-back1"></i>
+        </a>
+        注册
+    </div>
+
+    <div class="form ">
+        <div class="w90">
+            <div class="form-group p-b-b">
+                <a class="picon" href="javascript:;">
+
+                    <i class="iconfont icon-account"></i>
+                </a>
+                <input type="text" placeholder="手机号/密码">
+            </div>
+            <div class="form-group p-b-b">
+                <a class="picon" href="javascript:;">
+
+                    <i class="iconfont icon-yanzhengmayanzheng"></i>
+                </a>
+                <input type="text" placeholder="验证码">
+                <a class="safe" href="javascript:;">
+                    获取验证码
+                </a>
+            </div>
+            <div class="form-group">
+                <a class="picon" href="javascript:;">
+
+                    <i class="iconfont icon-password"></i>
+                </a>
+                <input id="i_password" type="password" placeholder="输入密码">
+                <span id="password" class="passShow">
+                    <i class="iconfont icon-yincangmima"></i>
+                </span>
+            </div>
+
+        </div>
+    </div>
+    <div class="w90">
+        <label class="notice" >
+            <input type="checkbox"> 我已阅读并同意 《注册协议》
+        </label>
+    </div>
+    <div class="w90">
+        <div class="form-btn">
+            <a class="btn brg center" href="javascript:;">
+                注册
+            </a>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/layer.min.js"></script>
+    <script>
+        var on = true;
+        $("#password").click(function () {
+
+            if( on ){
+                $(this).find('.iconfont').removeClass('icon-xianshimima').addClass('icon-yincangmima')
+                $("#i_password").prop({
+                    'type': 'password'
+                })
+                on = false
+            }else{
+                $(this).find('.iconfont').removeClass('icon-yincangmima').addClass('icon-xianshimima')
+
+                $("#i_password").prop({
+                    'type': 'text'
+                })
+                on = true;
+            }
+        })
+    </script>
+
+</body>
+</html>

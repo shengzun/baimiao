@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/* 去除iPhone中默认的input样式 */
+input[type="submit"],
+
+input[type="reset"],
+
+input[type="button"]
+
+{ -webkit-appearance:none; resize: none;}
+input,select,button{
+	outline:none;
+}
+/* 取消链接高亮  */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); }
+/* 设置HTML5元素为块 */
+article, aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+display: block;
+}
+/** 重置表格元素 **/
+table {   border-collapse:collapse; 
+ border-spacing:0;  }
+/* 图片自适应 */
+img {
+max-width: 100%;
+height: auto;
+width:auto\9; /* ie8 */
+-ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+}
+/* 初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section,td,th,i{margin:0; padding:0; border:none;}
+body{font-family: Microsoft YaHei,'宋体',Tahoma,Arial,sans-serif; color:#373232; background-color:#F9F9F9;}
+em,i{font-style:normal;}
+strong{font-weight: normal;}
+.clear:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clear{zoom:1;}
+a{text-decoration:none; color:#888; font-family: '微软雅黑',Microsoft YaHei,Tahoma,Arial,sans-serif;}
+i.iconfont{font-size: 1.2rem}
+ul,ol{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-family: Microsoft YaHei;}
+img{border: none;}
+button:active{
+	opacity: 0.8;
+}
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box; 
+}
+/* .scope{min-width:320px; max-width:540px;} */
+
+/*media 字体*/
+
+@media screen{html{margin:0 auto;font-size:10px;}}
+@media screen and (device-width:320px){html{font-size:10px;}}
+@media screen and (device-width:375px){html{font-size:12px;}}
+@media screen and (min-width:480px){html{font-size:15px;}}
+@media screen and (min-width:512px){html{font-size:16px;}}
+@media screen and (min-width:540px){html{font-size:16.9px;}}
+@media screen and (min-width:576px){html{font-size:18px;}}
+@media screen and (min-width:640px){html{font-size:20px;}}
+@media screen and (min-width:720px){html{font-size:24px; max-width: 750px; margin: 0 auto}}
+
+/* ---------------------------------------- css base 基础部分结束---------------------------------------- */
+/* 左浮动 */
+.left{
+	float: left;
+}
+/* 右浮动 */
+.right{
+	float: right;
+}
+.center{
+	text-align: center;
+}
+.body-nav{
+    padding-bottom: 2.16rem;
+    height: 100%;
+    overflow-y: auto;
+}
+/* 文字溢出变... */
+.fontOver{
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+-webkit-text-overflow: ellipsis;
+}
+input::input-placeholder{
+    color:#404040;
+    font-size: 1.2rem;
+}
+input::-webkit-input-placeholder{
+    color: #404040;
+    font-size: 1.2rem;
+}
+body{
+    color:#404040 ;
+    background: #F5F5F5;
+}
+.brg{
+    background: #BD2121;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.center{
+    text-align: center;
+}
+.bgray{
+    background: #F5F5F5;
+}
+.w90{
+    width: 90%;
+    margin: 0 auto;
+}
+.form{
+    background: #fff;
+}
+.p-b-b{
+    border-bottom: 1px solid #EEEEEE;
+}
+.mtb{
+    margin: 0.83rem 0 ;
+}
+.fix{
+    position: fixed;
+    bottom: 5rem;
+    left: 50%;
+    margin-left: -45%;
+}
+.navs{
+    width: 100%;
+    height:2.16rem;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    max-width: 750px;
+}
+.form-group{
+    height:4.17rem;
+
+    position: relative;
+
+}
+.form-group input{
+    padding-left: 2.67rem;
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 1.2rem;
+}
+.form-group .picon{
+    width: 2.6rem;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    display: table;
+
+    font-size: 1.6rem;
+}
+.form-group .passShow{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2.6rem;
+    text-align: center;
+    display: table;
+    height: 100%;
+}
+.form-group .passShow i{
+    display: table-cell;
+    vertical-align: middle;
+}
+.form-group .picon i{
+  display: table-cell;
+    vertical-align: middle;
+
+}
+.form-group .icon img{
+    max-width: 1.5rem;
+}
+.form-group .safe{
+    position: absolute;
+    right:0;
+    padding: 8px 13px;
+    border-radius: 3px;
+    border: 1px solid  #BD2121;
+    color:#BD2121 ;
+    text-align: center;
+
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+/*
+头部
+
+*/
+.head{
+    height: 3.67rem;
+    line-height:3.67rem;
+    color: #ffffff;
+    font-size:1.4rem;
+}
+.head a{
+    color: #ffffff;
+}
+.head .p-back{
+    left: 1.67rem;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+
+
+.headStatus{
+    height: 14.375rem;
+    width: 100%;
+    position: relative;
+}
+.headStatus .head_img{
+    position: absolute;
+    max-width: 6.17rem;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.headStatus .head_img img{
+    border: 3px solid #BBBBBB;
+    border-radius: 50%;
+}
+.headStatus .pname{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.headStatus .pname a{
+    color: #fff;
+}
