@@ -79,10 +79,15 @@ button:active{
 .center{
 	text-align: center;
 }
+.t-right{
+    text-align: right;
+}
+.t-red{
+    color:#BD2121;
+}
 .body-nav{
-    padding-bottom:5.16rem;
+    padding-bottom:4.09rem;
     height: 100%;
-
 }
 .main-section{
     height: 100%;
@@ -126,22 +131,66 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+.p-t{
+    padding-top: 3.67rem;
+}
 .form{
     background: #fff;
 }
 .p-b-b{
     border-bottom: 1px solid #EEEEEE;
 }
+.p-b-b-s{
+    border-bottom: 1px dashed #EEEEEE;
+}
+.p-l-r{
+    padding:1rem;
+}
+.p-b{
+    padding-bottom: 1.25rem;
+}
 .mtb{
     margin: 0.83rem 0 ;
 }
+.mtb-b{
+    margin-bottom: 0.83rem;
+}
+.mb{
+    margin-bottom: 1.25rem;
+}
+
+.mbl{
+    margin-left:2rem;
+}
+.mbl-s{
+    margin-left:1.25rem;
+}
+.mbl-ss{
+    margin-left:1rem;
+}
+.t-gray{
+    color: #808080;
+}
 .fix{
     position: fixed;
-    bottom: 5rem;
+    bottom: 2rem;
     left: 50%;
     margin-left: -45%;
 }
-
+.p-btn{
+    width: 7rem;
+    height:3.04rem ;
+    border:1px solid #A6A6A6;
+    color: #6C6C6C;
+    text-align: center;
+    line-height: 3.04rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+.p-btn.p-btn-red{
+    color:#BD2121;
+    border-color:#BD2121;
+}
 .form-group{
     height:4.17rem;
 
@@ -205,11 +254,16 @@ body{
 头部
 
 */
+
 .head{
+    width: 100%;
     height: 3.67rem;
     line-height:3.67rem;
     color: #ffffff;
     font-size:1.4rem;
+    position: fixed;
+    top:0;
+    left: 0;
 }
 .head a{
     color: #ffffff;

@@ -1,0 +1,52 @@
+.order{
+
+}
+.order .order-nav{
+    padding-top:1.34rem;
+    margin-bottom: 0.8rem;
+    background: #fff;
+}
+.order .order-nav .left{
+    width: 20%;
+    text-align: center;
+
+}
+.order .order-nav a{
+    padding-bottom:1.34rem;
+    display: inline-block;
+    border-bottom:2px solid transparent;
+}
+.order .order-nav .on a{
+    color: #BD2121;
+
+    border-bottom-color: #BD2121;
+}
+.order-main .section{
+background: #fff;
+    margin-bottom: 0.75rem;
+
+}
+.order-main .gray{
+    color: #A6A6A6;
+}
+.order-main .goods{
+    font-size: 1.25rem;
+}
+.order-main .goods .goods-left{
+    width: 20%;
+    text-align: center;
+    padding-top: 5px;
+}
+.order-main .goods .goods-right{
+    width: 75%;
+}
+.order-main .goods .gray{
+    font-size: 1rem;
+}
+.order-main .goods-right .left{
+    width: 70%;
+}
+.order-main .goods-right .right{
+    width: 27%;
+    text-align: right;
+}
