@@ -85,6 +85,12 @@ button:active{
 .t-red{
     color:#BD2121;
 }
+.f-size {
+    font-size: 0.8rem;
+}
+.f-size-s{
+    font-size: 0.4rem;
+}
 .body-nav{
     padding-bottom:4.09rem;
     height: 100%;
@@ -102,11 +108,15 @@ text-overflow: ellipsis;
 }
 input::input-placeholder{
     color:#c2c2c2;
-    font-size: 1.2rem;
+
 }
 input::-webkit-input-placeholder{
     color:#c2c2c2;
-    font-size: 1.2rem;
+
+}
+.middle{
+    display: inline-block;
+    vertical-align: middle;
 }
 body{
     color:#404040 ;
@@ -152,6 +162,12 @@ body{
 }
 .p-l-r{
     padding:1rem 0;
+}
+.pl{
+    padding: 1rem;
+}
+.pl-s{
+    padding: 0.4rem;
 }
 .p-b{
     padding-bottom: 1.25rem;
@@ -281,9 +297,43 @@ body{
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
+.head  .search{
+    width: 70%;
+    position: relative;
+   left: 55%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 62%;
+    -webkit-transform: translate(-50%,-50%);
 
 
+}
 
+.head  .search .icon-search{
+
+    position: absolute;
+    left: 5%;
+    color: #919191;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.head  .search input{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 15%;
+
+}
+.head  .search input:focus{
+    padding-left: 10%;
+
+}
+.head  .search input:focus + i{
+    display: none;
+}
 .headStatus{
     height: 14.375rem;
     width: 100%;
