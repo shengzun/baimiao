@@ -112,6 +112,10 @@ body{
     color:#404040 ;
     background: #F5F5F5;
 }
+
+.none{
+    display: none;
+}
 .brg{
     background: #BD2121;
 }

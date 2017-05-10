@@ -50,3 +50,15 @@ background: #fff;
     width: 27%;
     text-align: right;
 }
+.order-main  .wait-pay{
+        height: 26.5rem;
+    position: relative;
+}
+.order-main .wait-good{
+    width: 50%;
+        position: absolute;
+        left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+}
