@@ -101,11 +101,11 @@ text-overflow: ellipsis;
 -webkit-text-overflow: ellipsis;
 }
 input::input-placeholder{
-    color:#404040;
+    color:#c2c2c2;
     font-size: 1.2rem;
 }
 input::-webkit-input-placeholder{
-    color: #404040;
+    color:#c2c2c2;
     font-size: 1.2rem;
 }
 body{
@@ -138,6 +138,9 @@ body{
 .p-t{
     padding-top: 3.67rem;
 }
+.p-t-m{
+    padding-top: 0.8rem;
+}
 .form{
     background: #fff;
 }
@@ -148,16 +151,16 @@ body{
     border-bottom: 1px dashed #EEEEEE;
 }
 .p-l-r{
-    padding:1rem;
+    padding:1rem 0;
 }
 .p-b{
     padding-bottom: 1.25rem;
 }
 .mtb{
-    margin: 0.83rem 0 ;
+    margin: 0.8rem 0 ;
 }
 .mtb-b{
-    margin-bottom: 0.83rem;
+    margin-bottom: 0.8rem;
 }
 .mb{
     margin-bottom: 1.25rem;
@@ -345,4 +348,12 @@ body{
     max-width: 2rem;
     display: block;
     margin:0 auto;
+}
+@media screen and (device-width:320px){
+    .p-btn{
+        width:6rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+
 }

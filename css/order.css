@@ -35,10 +35,11 @@ background: #fff;
 .order-main .goods .goods-left{
     width: 20%;
     text-align: center;
-    padding-top: 5px;
+
 }
 .order-main .goods .goods-right{
     width: 75%;
+    padding-top:0.5rem;
 }
 .order-main .goods .gray{
     font-size: 1rem;
@@ -53,12 +54,44 @@ background: #fff;
 .order-main  .wait-pay{
         height: 26.5rem;
     position: relative;
+    background: #fff;
 }
 .order-main .wait-good{
     width: 50%;
         position: absolute;
         left: 50%;
     top: 50%;
+    text-align: center;
     transform:translate(-50%,-50%);
     -webkit-transform:translate(-50%,-50%);
+}
+.order-main .wait-good h4{
+    font-size: 1.4rem;
+    color: #404040;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+ .order-main .guanlian{
+    padding-top:1.875rem;
+}
+.guanlian .lead{
+    font-size: 1.25rem;
+}
+.order-main .guanlian .left{
+    width: 48%;
+    text-align: center;
+
+}
+.order-main .guanlian .right{
+    width: 48%;
+    text-align: center;
+}
+.order-main .area{
+    width: 100%;
+    resize: none;
+    outline: none;
+}
+.page-bot{
+    padding: 12px 0;
+    color:#D3D3D3;
 }
