@@ -85,12 +85,19 @@ button:active{
 .t-red{
     color:#BD2121;
 }
-.f-size {
-    font-size: 0.8rem;
+.t-gray{
+    color:#F5F5F5;
 }
 .f-size-s{
     font-size: 0.4rem;
 }
+.f-size {
+    font-size: 0.8rem;
+}
+.f-size-l{
+    font-size: 1.25rem;
+}
+
 .body-nav{
     padding-bottom:4.09rem;
     height: 100%;
@@ -165,6 +172,9 @@ body{
 }
 .pl{
     padding: 1rem;
+}
+.pl-l{
+    padding: 1.25rem;
 }
 .pl-s{
     padding: 0.4rem;
@@ -397,6 +407,71 @@ body{
     max-width: 2rem;
     display: block;
     margin:0 auto;
+}
+.cheque{
+    height: 4rem;
+    position: fixed;
+    bottom: 4.09rem;
+    width: 100%;
+    border-top: 1px solid #eee;
+    background: #FFFFFF;
+    z-index: 888;
+}
+.cheque .left{
+    width: 63%;
+
+    padding: 0.6rem 1.2rem;
+}
+.cheque .right{
+    width: 37%;
+    line-height: 4rem;
+    text-align: center;
+    color: #fff;
+
+}
+.cheque .quan
+{
+    width: 30%;
+    line-height:2.2rem;
+
+    float: left;
+
+}
+.cheque .quan input{
+    display: inline-block;vertical-align: middle;
+}
+.cheque .he{
+  float: right;
+    width: 60%;
+}
+.zhifu{
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+}
+.zhifu .zhifu-left{
+        width: 70%;
+
+
+}
+.zhifu .zhufu-right{
+    width: 30%;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #fff;
+}
+.zhifu .left-two{
+    padding-left: 1.25rem;
+}
+.zhifu .left-two,
+.zhifu .right-two{
+    width: 50%;
+    line-height: 4rem;
+
 }
 @media screen and (device-width:320px){
     .p-btn{
