@@ -60,3 +60,86 @@ body,html{
     width: 50%;
 
 }
+.list-show  .list{
+    position: relative;
+}
+.list-show .list .list-left{
+    width: 30%;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    max-height: 7.5rem;
+    overflow: hidden;
+    text-align: center;
+}
+.list-show .list .list-right{
+    width:68%;
+
+}
+.list-show .list .ji{
+    font-size: 0.6rem;
+    color:#808080;
+}
+.list-show .list .fen{
+    color: #CB6465;
+    font-size: 0.5rem;
+}
+.list-show .list .list-buy{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    border: 1px solid #BD2121;
+    color: #BD2121;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+    bottom:1.5rem;
+
+    right:2rem;
+}
+.vintage{
+    height: 100%;
+    overflow: hidden;
+}
+.vintage .vintage-left{
+    width: 25%;
+   height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid #eee;
+}
+.vintage .vintage-left li{
+    height: 4rem;
+    text-align: center;
+    font-weight:600;
+    line-height: 4rem;
+    border-left: 1px solid transparent;
+}
+.vintage .vintage-left li.on{
+    border-left-color: #BD2121;
+    background: #fff;
+}
+.vintage .vintage-right{
+   width: 75%;
+    height: 100%;
+    overflow-y: auto;
+}
+.vintage .vintage-main{
+    display: none;
+}
+.vintage .vintage-main.xian{
+    display: block;
+}
+.vintage .vintage-main dl{
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    text-align: center;
+
+}
+.vintage .vintage-main dt{
+    max-height: 5.8rem;
+    overflow: hidden;
+    border: 1px solid #EEEEEE;
+}
+.vintage .vintage-main dl.last{
+    margin-right: 0;
+}

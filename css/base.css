@@ -96,8 +96,8 @@ button:active{
     height: 100%;
 }
 .main-section{
-    height: 100%;
-    overflow-y: auto;
+    min-height: 100%;
+
 }
 /* 文字溢出变... */
 .fontOver{
@@ -287,6 +287,7 @@ body{
     position: fixed;
     top:0;
     left: 0;
+    z-index: 99;
 }
 .head a{
     color: #ffffff;
@@ -305,8 +306,6 @@ body{
     transform: translate(-50%,-50%);
     height: 62%;
     -webkit-transform: translate(-50%,-50%);
-
-
 }
 
 .head  .search .icon-search{
