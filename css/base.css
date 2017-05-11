@@ -88,6 +88,12 @@ button:active{
 .t-gray{
     color:#F5F5F5;
 }
+.t-lightGray{
+    color: #8E8E8E;
+}
+.bg-red{
+    background: #FB2829;
+}
 .f-size-s{
     font-size: 0.4rem;
 }
@@ -336,6 +342,14 @@ body{
     padding-left: 15%;
 
 }
+.head .p-good{
+    left: 3.2rem;
+    color: rgba(250,250,250,.7);
+}
+.head .p-money{
+    right: 3.2rem;
+    color: rgba(250,250,250,.7);
+}
 .head  .search input:focus{
     padding-left: 10%;
 
@@ -472,6 +486,30 @@ body{
     width: 50%;
     line-height: 4rem;
 
+}
+.detail-pay{
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}
+.detail-pay .right{
+    width: 26%;
+    line-height: 4rem;
+    color: #fff;
+
+}
+.detail-pay .left{
+    width: 16%;
+    border-right: 1px solid #eee;
+    height: 4rem;
+    padding-top: 0.5rem;
+    color:#8E8E8E;
+}
+.detail-pay .left dt{
+    min-height: 1.6rem;
 }
 @media screen and (device-width:320px){
     .p-btn{

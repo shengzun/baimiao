@@ -1,0 +1,16 @@
+html,body{
+    height: 100%;
+}
+.detail{
+
+    padding-bottom: 4rem;
+}
+.detail-info{
+    padding: 1.4rem 1rem 0;
+}
+.detail-quan {
+   line-height: 1rem;
+}
+.detail-quan .left{
+    width: 33.3%;
+}
