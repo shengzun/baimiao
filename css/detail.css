@@ -101,3 +101,9 @@ html,body{
 .detail-btn a.addCar{
     background: #FB2829;
 }
+.g-detail .g-detail-top{
+    padding: 1.16rem 0;
+}
+.mbl-detail{
+    margin-left: 6.67rem;
+}

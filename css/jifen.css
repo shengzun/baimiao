@@ -1,0 +1,23 @@
+.jifen{
+    padding: 2.67rem  2.5rem ;
+}
+.jifen .ab{
+    width: 45%;
+}
+.jifen .ab .t-red{
+    font-size: 3rem;
+    margin-right: 0.5rem;
+}
+.jifen .ab .t{
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    margin-top: 1rem;
+    text-align: center;
+}
+.jifen-li li{
+    padding: 1.5rem  0 ;
+}
+.jifen-li li .right{
+    padding-top: 1rem;
+}

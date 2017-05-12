@@ -50,3 +50,11 @@
 .collection dd{
     padding: 0.6rem;
 }
+.lo-save{
+    position: absolute;
+    right: 4.5rem;
+}
+.lo-save-two{
+    position: absolute;
+    right: 1.67rem;
+}
