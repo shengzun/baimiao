@@ -1,8 +1,10 @@
 html,body{
     height: 100%;
+    overflow: hidden;
 }
 .detail{
-
+    overflow-y: auto;
+    height: 100%;
     padding-bottom: 4rem;
 }
 .detail-info{
@@ -13,4 +15,89 @@ html,body{
 }
 .detail-quan .left{
     width: 33.3%;
+}
+.detail-tan{
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 88667;
+    bottom: 0;
+    display: none;
+}
+.detail-tan .detail-top{
+    height:25%;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+
+}
+.detail-tan .detail-bot{
+    height: 75%;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    padding-bottom: 3.2rem;
+
+}
+
+.detail-tan .detail-zhan{
+    padding:0 1rem;
+    margin-bottom: 2rem;
+}
+.detail-tan .detail-zhan .left{
+    width: 40%;
+
+}
+.detail-tan .detail-zhan .left img{
+    margin-top: -20%;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    display: block;
+    box-shadow: 1px 1px 3px #eee;
+}
+.detail-tan .detail-zhan .right{
+    width: 55%;
+    padding-top: 1rem;
+}
+.detail-big dt{
+    padding: 0.6rem 1rem;
+}
+.detail-big dd{
+    padding:16px 1rem 8px;
+}
+.detail-big dd a{
+    width: 4.67rem;
+    text-align: center;
+    padding:8px 0;
+    display: inline-block;
+    margin-right: 1.8rem;
+    margin-bottom: 8px;
+    border: 1px solid #A4A4A4;
+
+}
+.detail-big dd a.on{
+    color: #BD2121;
+    border-color: #BD2121;
+}
+.detail-bug{
+    padding: 4.5rem 1rem 2rem;
+}
+.detail-btn{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height:3rem ;
+}
+.detail-btn a{
+    display: block;
+    float: left;height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    background:  #BD2121;
+    font-size: 1.25rem;
+}
+.detail-btn a.addCar{
+    background: #FB2829;
 }

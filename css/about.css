@@ -1,0 +1,14 @@
+.about-head{
+    padding: 2.4rem 0;
+    text-align: center;
+}
+.about-head img{
+    display: inline-block;
+    max-width:6.67rem;
+}
+.about-head .zi{
+    font-size: 1.5rem;
+}
+.a-b{
+    margin-bottom: 1.8rem;
+}

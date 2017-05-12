@@ -88,6 +88,9 @@ button:active{
 .t-gray{
     color:#F5F5F5;
 }
+.t-success{
+    color: #42A139;
+}
 .t-lightGray{
     color: #8E8E8E;
 }
@@ -494,6 +497,7 @@ body{
     width: 100%;
     background: #fff;
     text-align: center;
+    z-index: 666;
 }
 .detail-pay .right{
     width: 26%;
@@ -516,6 +520,9 @@ body{
         width:6rem;
         height: 2.5rem;
         line-height: 2.5rem;
+    }
+    .detail-bot .detail-bug{
+        padding-top: 2.5rem;
     }
 
 }

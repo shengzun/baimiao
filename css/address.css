@@ -7,3 +7,40 @@
 .address .list-icon{
     margin-left: 1.4rem;
 }
+.p-t-l{
+    padding-top: 4.5rem;
+}
+.shou-address{
+    height: 100%;
+    padding-top: 8rem;
+    text-align: center;
+}
+.shou-address img {
+    max-width: 8rem;
+}
+.shou-address .p{
+    padding: 2rem 0 7rem;
+}
+.shou-btn{
+    width: 100%;
+    font-size: 1.33rem;
+    color: #fff;
+    display: block;
+    border-radius: 3px;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    background: #BD2121;
+}
+.add-save{
+    position: absolute;
+    right: 1.67rem;
+}
+.add-address input,
+.add-address select{
+    min-width: 19rem;
+}
+.add-address textarea{
+    width: 100%;
+    resize: none;
+    outline: none;
+}
